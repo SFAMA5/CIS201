@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css"  href="mysheet.css">
+	<title>The Product</title>
+</head>
+<body>
+	
+
+<body >
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="c:\Users\202312211\Downloads\index.html" class="active">Home</a>
+  <a href="c:\Users\202312211\Downloads\TheProduct.html">Product</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	<h1>List of Products</h1>
+
+	<hr/>
+	
+	<p> Here is a list of our Products that are avaliable to buy online </p>
+
+				<table>
+					<form>
+			 	<caption>Prices</caption>
+			 	<tr>
+			 		<th>Products</th>
+			 		<th>Memory</th>
+			 		<th>Price</th>
+			 	</tr>
+			 	<tr>
+			 		<td>iPhone 15 Pro (Titanum)</td>
+			 		<td>64GB</td>
+			 		<td>$999</td>
+			 	</tr>
+			 	<tr>
+			 		<td>iPhone 15 Pro<br>
+			 			<ul>
+			 			<li>Black</li>
+			 			<li>Silver</li>
+			 			<li>Rose Gold</li>
+			 		</ul>
+			 		<td>128GB</td>
+			 		<td>$1100</td>
+			 	
+
+			 	</tr>
+			 	<tr>
+			 		<td>iPhone 15 Pro Max<br>(Silver)</td>
+			 		<td>128GB</td>
+			 		<td>$1200</td>
+			 	</tr>
+			 	<tr>
+			 		<td>iPhone 15 Pro Max<br>(Silver)</td>
+			 		<td>512GB</td>
+			 		<td>$1350</td>
+			 	</tr>
+			</table>
+			 		<label for="Product" style="font-size: 175%"> Choose a Product: </label><select id="Product" name="Product">
+
+			 			<option value="iPhone 15 Pro (Titanum) 64GB">iPhone 15 Pro (Titanum) 64GB</option>
+			 			<option value="iPhone 15 Pro (Black) 128GB">iPhone 15 Pro (Black) 128GB</option>
+			 			<option value="iPhone 15 Pro (Silver) 128GB">iPhone 15 Pro (Silver) 128GB</option>
+			 			<option value="iPhone 15 Pro (Rose Gold) 128GB">iPhone 15 Pro (Rose Gold) 128GB</option>
+			 			<option value="iPhone 15 Pro Max (Silver) 128GB">iPhone 15 Pro Max (Silver) 128GB</option>
+			 			<option value="iPhone 15 Pro Max (Black) 512GB">iPhone 15 Pro Max (Black) 512GB</option>
+
+			 	</select>
+			<br>
+			 	<button type="button" onclick=" alert('Thanks for choosing and working with us')">Submit</button>
+			
+	
+			
+		
+</body>
+</html>
